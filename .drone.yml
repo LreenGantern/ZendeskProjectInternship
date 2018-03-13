@@ -3,7 +3,7 @@ pipeline:
     image: some/image
     commands:
       - echo foo
-    pull true
+    pull: true
     
   notify:
     when: [success,failure] 
