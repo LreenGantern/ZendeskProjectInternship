@@ -2,7 +2,8 @@ pipeline:
   build:
     image: java:openjdk-7
     pull: true
-    
+ 
+ 
   notify:
     image: plugins/slack
     webhook: https://hooks.slack.com/services/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
