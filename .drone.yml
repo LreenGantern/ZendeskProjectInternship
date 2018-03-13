@@ -1,10 +1,10 @@
 pipeline:
-  build:
-    image: dockerfile/nginx
-    script:
-    - echo hello world
-    pull: true
- 
+  some_step:
+    image: some/image
+    commands:
+      - echo foo
+    pull true
+    
   notify:
     when: [success,failure] 
     image: plugins/slack
