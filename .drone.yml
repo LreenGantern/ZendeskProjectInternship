@@ -1,9 +1,8 @@
 pipeline:
   build:
-    image: java:openjdk-7
     image: dockerfile/nginx
-  script:
-  - echo hello world
+    script:
+    - echo hello world
     pull: true
  
   notify:
