@@ -7,5 +7,7 @@ pipeline:
     image: plugins/slack
     webhook: https://hooks.slack.com/services/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
     channel: slack_test
+    template: >
+      build #{{ build.number }} finished with a {{ build.status }} status. Commit message: {{build.message}} - See more at {{system.link_url}}/{{repo.owner}}/{{repo.name}}/{{build.number}}
     
 
