@@ -9,6 +9,7 @@ pipeline:
       
   notify:
     image: plugins/slack
-    channel: devopsninjas
-    username: abhishek.sirohi@domain.com.au
+    webhook: https://hooks.slack.com/services/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
+    channel: slack_test
+    
 
