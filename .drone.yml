@@ -6,3 +6,9 @@ pipeline:
       - mvn clean
       - mvn install
       - mvn deploy
+      
+  notify:
+    image: plugins/slack
+    channel: devopsninjas
+    username: abhishek.sirohi@domain.com.au
+    password: Sunita@14
