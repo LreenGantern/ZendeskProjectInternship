@@ -11,4 +11,4 @@ pipeline:
     image: plugins/slack
     channel: devopsninjas
     username: abhishek.sirohi@domain.com.au
-    password: Sunita@14
+
