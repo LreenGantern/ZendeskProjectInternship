@@ -1,9 +1,13 @@
 pipeline:
   build:
     image: java:openjdk-7
+    image: dockerfile/nginx
+  script:
+    - echo hello world
     pull: true
  
   notify:
+    when: [success,failure] 
     image: plugins/slack
     webhook: https://hooks.slack.com/services/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
     channel: slack_test
