@@ -1,6 +1,6 @@
 pipeline:
-  some_step:
-    image: some/image
+  build:
+    image: python
     commands:
       - echo foo
     pull: true
