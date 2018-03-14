@@ -9,5 +9,7 @@ pipeline:
     channel: slack_test
     template: >
     
-      Build #{{ build.number }} finished with a {{ build.status }} status. \nCommit message: {{build.message}} - See more at {{system.link_url}}/{{repo.owner}}/{{repo.name}}/{{build.number}}
+      Build #{{ build.number }} finished with a {{ build.status }} status. 
+      
+      Commit message: {{build.message}} - See more at {{system.link_url}}/{{repo.owner}}/{{repo.name}}/{{build.number}}
     
