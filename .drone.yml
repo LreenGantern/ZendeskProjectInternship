@@ -1,6 +1,6 @@
 pipeline:
   build:
-    image: python
+    image: ubuntu
     commands:
       - echo foo
     pull: true
