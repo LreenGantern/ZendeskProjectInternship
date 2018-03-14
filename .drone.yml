@@ -1,8 +1,4 @@
 pipeline:
-  build:
-    image: ubuntu
-    commands:
-      - echo foo
     pull: true
     
   notify:
