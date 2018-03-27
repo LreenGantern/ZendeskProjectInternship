@@ -73,7 +73,6 @@ public class TicketList {
 			System.exit(0);
 		}
 	}
-
 // This function lists out all the tickets present in the system.
 
 	public void getAllTickets(String userName, String userPwd) {
