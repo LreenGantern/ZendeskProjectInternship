@@ -9,8 +9,7 @@ pipeline:
     #secrets: [ docker_username, docker_password ]
     # auto_tag: true
     debug: true
-    tags: ${DRONE_COMMIT_SHA}
-    dockerfile: Dockerfile-pretrain
+    tags: ${DRONE_COMMIT_SHA}    
     
   notify:
     image: plugins/slack
