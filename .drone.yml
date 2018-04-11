@@ -6,8 +6,8 @@ pipeline:
   publish:
     image: plugins/docker
     repo: abhisirohi/ZendeskProjectInternship
-    #secrets: [ docker_username, docker_password ]
-    # auto_tag: true
+    secrets: [ docker_username, docker_password ]
+    auto_tag: true
     debug: true
     tags: ${DRONE_COMMIT_SHA}    
     
