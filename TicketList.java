@@ -26,7 +26,7 @@ public class TicketList {
 
 		System.out.println("Welcome to the ticket listing system!");
 		String userName = "asirohi90@gmail.com";
-		String userPwd = "Sunita@5";
+		String userPwd = "";
 		while (true) {
 
 			System.out.println("Select View Options\n(1.) Press 1 to see all the tickets\n(2.) "
